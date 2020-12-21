@@ -1,0 +1,262 @@
+Time: Thu Feb 13 11:49:23 PST 2020. Starting System Diagnostic File of BoxDim system 
+------------------------------------------------------------------------------------------
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current Running Kernel / OS 
+------------------------------------------------------------------------------------------
+Linux BoxDim13b 4.15.0-37-generic #40~upboard05-Ubuntu SMP Tue Nov 26 15:30:34 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current BoxDim system version 
+------------------------------------------------------------------------------------------
+This is: 2020-10-12-MASTER-DISK-V1.4beta-08 OpenCV 4.2.0 image for BoxDim
+==========================================================================
+
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current BoxDim disk usage 
+------------------------------------------------------------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+udev            706M     0  706M   0% /dev
+tmpfs           148M  2.8M  145M   2% /run
+/dev/mmcblk0p2  5.8G  3.7G  1.8G  68% /
+tmpfs           736M     0  736M   0% /dev/shm
+tmpfs           5.3M     0  5.3M   0% /run/lock
+tmpfs           736M     0  736M   0% /sys/fs/cgroup
+/dev/mmcblk0p5  3.4G  8.2M  3.2G   1% /var/elsa
+/dev/mmcblk0p6  2.9G  4.5M  2.8G   1% /var/recovery
+/dev/mmcblk0p1  536M  3.9M  532M   1% /boot/efi
+/dev/mmcblk0p4  1.5G  277M  1.1G  21% /usr/local
+/dev/sda         63G   39G   21G  66% /media/usb0
+/dev/sdb1        17G  5.8G   11G  36% /media/usb1
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current BoxDim network hostname 
+------------------------------------------------------------------------------------------
+BoxDim13b
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current BoxDim time zone information 
+------------------------------------------------------------------------------------------
+      Local time: Thu 2020-02-13 11:49:23 PST
+  Universal time: Thu 2020-02-13 19:49:23 UTC
+        RTC time: Thu 2020-02-13 19:49:23
+       Time zone: America/Los_Angeles (PST, -0800)
+ Network time on: yes
+NTP synchronized: no
+ RTC in local TZ: no
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current BoxDim system network configuration 
+------------------------------------------------------------------------------------------
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+#auto enp1s0
+allow-hotplug enp1s0
+iface enp1s0 inet dhcp
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current BoxDim system network IP address 
+------------------------------------------------------------------------------------------
+
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current BoxDim system ELSA daemon status 
+------------------------------------------------------------------------------------------
+● elsa.service - ELSA BoxDim
+   Loaded: loaded (/lib/systemd/system/elsa.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2020-02-13 11:49:13 PST; 10s ago
+ Main PID: 1173 (elsa)
+    Tasks: 11
+   Memory: 31.3M
+      CPU: 729ms
+   CGroup: /system.slice/elsa.service
+           └─1173 /usr/local/bin/elsa
+
+Feb 13 11:49:15 BoxDim13b elsa[1173]: Listener on port 10001
+Feb 13 11:49:15 BoxDim13b elsa[1173]: Waiting for connections ...
+Feb 13 11:49:15 BoxDim13b elsa[1173]: Entering USBListener
+Feb 13 11:49:15 BoxDim13b elsa[1173]: Opened serial port.
+Feb 13 11:49:15 BoxDim13b elsa[1173]: Opened database /var/elsa/database/Dims.db.
+Feb 13 11:49:15 BoxDim13b elsa[1173]: Linux version = 4.15.0-37-generic
+Feb 13 11:49:15 BoxDim13b elsa[1173]: Database ready for use.
+Feb 13 11:49:16 BoxDim13b elsa[1173]: librealsense version: 2.31.0
+Feb 13 11:49:16 BoxDim13b elsa[1173]: Found 0 devices
+Feb 13 11:49:16 BoxDim13b elsa[1173]: No camera found.
+
+Time: Thu Feb 13 11:49:23 PST 2020. Current BoxDim system INTEL camera config info 
+------------------------------------------------------------------------------------------
+Time: Thu Feb 13 11:49:24 PST 2020. Camera is on Bus:  and Device:  
+
+Time: Thu Feb 13 11:49:24 PST 2020. Camera Firmware and librealsense versioning 
+ 
+No device detected. Is it plugged in?
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim system INTEL librealsense version installed 
+------------------------------------------------------------------------------------------
+Librealsense version installed: 2.31.0 
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim system OpenCV version installed 
+------------------------------------------------------------------------------------------
+OpenCV version installed: 4.2.0 
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim system ELSA configuration JSON file 
+------------------------------------------------------------------------------------------
+{
+    "aux-param-autoexposure-setpoint": "400",
+    "aux-param-colorcorrection1": "0.461914",
+    "aux-param-colorcorrection10": "-0.553711",
+    "aux-param-colorcorrection11": "-0.553711",
+    "aux-param-colorcorrection12": "0.0458984",
+    "aux-param-colorcorrection2": "0.540039",
+    "aux-param-colorcorrection3": "0.540039",
+    "aux-param-colorcorrection4": "0.208008",
+    "aux-param-colorcorrection5": "-0.332031",
+    "aux-param-colorcorrection6": "-0.212891",
+    "aux-param-colorcorrection7": "-0.212891",
+    "aux-param-colorcorrection8": "0.68457",
+    "aux-param-colorcorrection9": "0.930664",
+    "aux-param-depthclampmax": "65536",
+    "aux-param-depthclampmin": "0",
+    "aux-param-disparityshift": "0",
+    "controls-autoexposure-auto": "True",
+    "controls-autoexposure-manual": "34000",
+    "controls-color-autoexposure-auto": "True",
+    "controls-color-autoexposure-manual": "166",
+    "controls-color-backlight-compensation": "0",
+    "controls-color-brightness": "0",
+    "controls-color-contrast": "50",
+    "controls-color-gain": "96",
+    "controls-color-gamma": "300",
+    "controls-color-hue": "0",
+    "controls-color-power-line-frequency": "3",
+    "controls-color-saturation": "64",
+    "controls-color-sharpness": "50",
+    "controls-color-white-balance-auto": "True",
+    "controls-color-white-balance-manual": "4600",
+    "controls-depth-gain": "16",
+    "controls-depth-white-balance-auto": "False",
+    "controls-laserpower": "360",
+    "controls-laserstate": "on",
+    "ignoreSAD": "0",
+    "param-amplitude-factor": "0.18",
+    "param-autoexposure-setpoint": "400",
+    "param-censusenablereg-udiameter": "9",
+    "param-censusenablereg-vdiameter": "9",
+    "param-censususize": "9",
+    "param-censusvsize": "9",
+    "param-depthclampmax": "65536",
+    "param-depthclampmin": "0",
+    "param-depthunits": "100",
+    "param-disableraucolor": "0",
+    "param-disablesadcolor": "0",
+    "param-disablesadnormalize": "0",
+    "param-disablesloleftcolor": "0",
+    "param-disableslorightcolor": "1",
+    "param-disparitymode": "0",
+    "param-disparityshift": "0",
+    "param-lambdaad": "751",
+    "param-lambdacensus": "6",
+    "param-leftrightthreshold": "10",
+    "param-maxscorethreshb": "2893",
+    "param-medianthreshold": "796",
+    "param-minscorethresha": "4",
+    "param-neighborthresh": "108",
+    "param-raumine": "6",
+    "param-rauminn": "3",
+    "param-rauminnssum": "7",
+    "param-raumins": "2",
+    "param-rauminw": "2",
+    "param-rauminwesum": "12",
+    "param-regioncolorthresholdb": "0.784736",
+    "param-regioncolorthresholdg": "0.565558",
+    "param-regioncolorthresholdr": "0.985323",
+    "param-regionshrinku": "3",
+    "param-regionshrinkv": "0",
+    "param-robbinsmonrodecrement": "25",
+    "param-robbinsmonroincrement": "2",
+    "param-rsmdiffthreshold": "1.65625",
+    "param-rsmrauslodiffthreshold": "0.71875",
+    "param-rsmremovethreshold": "0.809524",
+    "param-scanlineedgetaub": "13",
+    "param-scanlineedgetaug": "15",
+    "param-scanlineedgetaur": "30",
+    "param-scanlinep1": "155",
+    "param-scanlinep1onediscon": "160",
+    "param-scanlinep1twodiscon": "59",
+    "param-scanlinep2": "190",
+    "param-scanlinep2onediscon": "507",
+    "param-scanlinep2twodiscon": "493",
+    "param-secondpeakdelta": "647",
+    "param-texturecountthresh": "0",
+    "param-texturedifferencethresh": "1722",
+    "param-usersm": "1",
+    "param-zunits": "100",
+    "stream-depth-format": "Z16",
+    "stream-fps": "30",
+    "stream-height": "720",
+    "stream-ir-format": "Y8",
+    "stream-width": "1280"
+}
+
+
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim system content of log directory 
+------------------------------------------------------------------------------------------
+total 16
+-rw-rw-r-- 1 ioline ioline   66 Feb 13 11:49 config.log
+-rw-rw-r-- 1 ioline ioline    0 Feb 11 15:21 cron.log
+-rw-rw-r-- 1 ioline ioline    0 Feb 13 08:05 diskprune.log
+-rw-rw-r-- 1 ioline ioline 1596 Feb 13 11:49 elsa.log
+-rw-rw-r-- 1 ioline ioline  211 Feb 13 07:10 logrotate-state
+-rw-rw-r-- 1 ioline ioline  529 Feb 13 11:49 partition.log
+-rw-rw-r-- 1 ioline ioline    0 Feb 11 15:21 update.log
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim system packages installed 
+------------------------------------------------------------------------------------------
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim last / (root) partition restored 
+------------------------------------------------------------------------------------------
+Time: Thu Feb 13 11:49:24 PST 2020.  No partiton restore of / (root) has taken place 
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim last runtime configuration update
+------------------------------------------------------------------------------------------
+Time: Thu Feb 13 11:49:24 PST 2020.  No system re-configuration has taken place 
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim disk pruning status of /var/elsa
+------------------------------------------------------------------------------------------
+Time: Thu Feb 13 11:49:24 PST 2020.  Last disk pruning of /var/elsa took place at: Thu Feb 13 07:17:01 PST 2020 
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim system - kernel errors
+------------------------------------------------------------------------------------------
+Feb 13 11:49:12 BoxDim13b kernel: [   12.829422] audit: type=1400 audit(1581623352.503:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=998 comm="apparmor_parser"
+Feb 13 11:49:12 BoxDim13b kernel: [   12.831510] audit: type=1400 audit(1581623352.503:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=996 comm="apparmor_parser"
+Feb 13 11:49:12 BoxDim13b kernel: [   12.831663] audit: type=1400 audit(1581623352.503:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=994 comm="apparmor_parser"
+Feb 13 11:49:12 BoxDim13b kernel: [   12.831671] audit: type=1400 audit(1581623352.503:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=994 comm="apparmor_parser"
+Feb 13 11:49:12 BoxDim13b kernel: [   13.258194] r8169 0000:01:00.0 enp1s0: link down
+Feb 13 11:49:12 BoxDim13b kernel: [   13.258196] r8169 0000:01:00.0 enp1s0: link down
+Feb 13 11:49:12 BoxDim13b kernel: [   13.258293] IPv6: ADDRCONF(NETDEV_UP): enp1s0: link is not ready
+Feb 13 11:49:13 BoxDim13b kernel: [   13.413474] new mount options do not match the existing superblock, will be ignored
+Feb 13 11:49:15 BoxDim13b kernel: [   15.870231] r8169 0000:01:00.0 enp1s0: link up
+Feb 13 11:49:15 BoxDim13b kernel: [   15.870249] IPv6: ADDRCONF(NETDEV_CHANGE): enp1s0: link becomes ready
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim system - last syslog entries
+------------------------------------------------------------------------------------------
+Feb 13 11:49:19 BoxDim13b sh[1010]: bound to 10.0.0.66 -- renewal in 230701 seconds.
+Feb 13 11:49:19 BoxDim13b systemd[1]: Reloading OpenBSD Secure Shell server.
+Feb 13 11:49:19 BoxDim13b systemd[1]: Reloaded OpenBSD Secure Shell server.
+Feb 13 11:49:23 BoxDim13b systemd[1]: Started Daily apt download activities.
+Feb 13 11:49:23 BoxDim13b systemd[1]: Startup finished in 10.385s (kernel) + 13.046s (userspace) = 39.173s.
+Feb 13 11:49:23 BoxDim13b dbus[1067]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service'
+Feb 13 11:49:23 BoxDim13b systemd[1]: Starting Time & Date Service...
+Feb 13 11:49:23 BoxDim13b dbus[1067]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Feb 13 11:49:23 BoxDim13b systemd[1]: Started Time & Date Service.
+Feb 13 11:49:24 BoxDim13b snapd[1056]: stateengine.go:108: state ensure error: cannot decode new commands catalog: got unexpected HTTP status code 429 via GET to "https://api.snapcraft.io/api/v1/snaps/names?confinement=strict%2Cclassic"
+
+Time: Thu Feb 13 11:49:24 PST 2020. Current BoxDim system ELSA logrotate run
+------------------------------------------------------------------------------------------
+logrotate state -- version 2
+"/var/elsa/log/update.log" 2020-1-10-10:0:0
+"/var/elsa/log/diskprune.log" 2020-1-20-5:10:1
+"/var/elsa/log/config.log" 2020-1-10-10:0:0
+"/var/elsa/log/partition.log" 2020-1-10-10:0:0

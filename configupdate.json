@@ -1,0 +1,12 @@
+{
+        "hostname" : "BoxDim13b",
+	"network" : "dhcp",
+	"ip" : "192.168.1.182",
+	"netmask" : "255.255.255.0",
+	"gateway" : "192.168.1.1",
+	"broadcast" : "192.168.1.255",
+	"dns1" : "8.8.8.8",
+        "dns2" : "",
+        "domain" : "learningaccess.org",
+	"timezone" : "America/Los_Angeles"
+}
