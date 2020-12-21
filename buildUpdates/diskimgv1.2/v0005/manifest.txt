@@ -1,0 +1,10 @@
+Package Date: December 04, 2019 -- 08:04:00AM
+Package Version: v0005
+Package Author: Willem
+
+Assumption: 2019-11-14-MASTER-DISK-V1.2
+
+Contents:
+-------------------------------------------------------------------
+bin/elsa			- elsa app update to version 0.2019.12.04a
+

@@ -1,0 +1,9 @@
+Package Date: October 31, 2019 -- 9:45:00AM
+Package Version: v0001
+Package Author: Willem
+
+Contents:
+-------------------------------------------------------------------
+bin/elsa			- elsa app update to version 0.2019.10.30
+scripts/extractupdate.sh	- update to version 10/29/2019
+
